@@ -1,0 +1,903 @@
+[INFO ] 2024-06-10 08:36:41.729 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', waterLevel=0, temperature=20, isAlive=true}, Plant{name='Tulip', waterLevel=0, temperature=15, isAlive=true}, Plant{name='Sunflower', waterLevel=0, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:36:41.735 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:36:41.735 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:36:41.735 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:36:41.735 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:36:41.735 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:36:41.735 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:36:45.346 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:36:45.346 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:36:45.346 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:36:45.347 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:45.347 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:45.347 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:45.347 [parasiteThread] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:36:45.347 [parasiteThread] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:36:48.954 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:36:48.954 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:36:48.955 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 08:36:48.955 [parasiteThread] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:36:52.559 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:36:52.559 [parasiteThread] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:36:52.559 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:36:52.559 [parasiteThread] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:36:56.164 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:36:56.165 [main] GardenSimulatorAPI - Dead Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:40:27.374 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:40:27.382 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:40:27.382 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:40:27.382 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:40:27.383 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:40:27.383 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:40:27.383 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:40:30.983 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:40:30.984 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:40:30.984 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:40:30.984 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:30.984 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:30.985 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:30.985 [parasiteThread] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:40:30.985 [parasiteThread] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:40:34.599 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:34.599 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:40:34.599 [parasiteThread] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 08:40:34.600 [parasiteThread] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:40:38.204 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:40:38.204 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:40:38.204 [parasiteThread] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:40:38.204 [parasiteThread] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:40:41.810 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:40:41.811 [main] GardenSimulatorAPI - Dead Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:41:51.520 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:41:51.536 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:41:51.537 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:41:51.537 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:41:51.537 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:41:51.537 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:41:51.538 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:41:55.138 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:41:55.139 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:41:55.139 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:41:55.139 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:41:55.140 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:41:55.140 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:41:59.520 [parasiteThread] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:41:59.520 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:42:00.635 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:41:59.520 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:42:07.499 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:07.499 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:07.499 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:07.499 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:42:07.499 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:42:07.502 [parasiteThread] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:42:22.234 [parasiteThread] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 08:42:22.234 [parasiteThread] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:42:07.502 [parasiteThread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:42:22.234 [parasiteThread] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:42:22.234 [parasiteThread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:22.234 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:42:22.234 [parasiteThread] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:22.235 [main] GardenSimulatorAPI - Dead Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:42:22.235 [parasiteThread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:42:23.079 [parasiteThread] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:42:23.080 [parasiteThread] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:43:49.755 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:43:49.765 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:43:49.765 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:43:49.767 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:43:49.765 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:43:49.767 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:43:49.767 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:43:55.030 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:43:55.030 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:43:56.559 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:44:02.466 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:44:03.788 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:44:03.797 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:44:03.797 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:44:03.797 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:44:03.797 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:44:03.797 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:44:03.798 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:44:07.412 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 08:44:07.413 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 08:44:07.413 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 08:44:07.413 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 08:44:07.413 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:44:09.112 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:44:09.112 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:44:47.075 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:44:51.572 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:44:51.572 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 08:44:51.572 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:44:51.572 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:44:51.572 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:45:53.000 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:45:53.001 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:45:53.000 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:45:53.001 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:46:02.205 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:46:02.212 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:46:02.213 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:46:02.212 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:46:02.213 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:46:02.213 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:46:02.213 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:46:05.824 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:46:05.824 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:46:05.824 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:46:05.825 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:46:09.433 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:46:09.434 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:46:09.434 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 08:46:09.434 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:46:09.434 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:46:13.038 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:46:13.039 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:46:13.039 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:46:13.039 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:46:16.640 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:46:16.640 [main] GardenSimulatorAPI - Dead Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:47:47.909 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 08:47:47.916 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 08:47:47.917 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 08:47:47.917 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 08:47:47.917 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 08:47:47.917 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 08:47:47.917 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 08:47:51.522 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 08:47:51.523 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 08:47:51.523 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 08:47:51.523 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 08:47:55.129 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 08:47:55.129 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 08:47:55.129 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 08:47:55.129 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:47:55.129 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:47:58.739 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 08:47:58.740 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 08:47:58.740 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 08:47:58.740 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 08:48:02.345 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 08:48:02.346 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:50:11.411 [main] GardenSimulator - Initializing the garden simulation...
+[INFO ] 2024-06-10 09:50:11.429 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:50:11.434 [rainThread] RainController - Simulating rain of 2 units.
+[INFO ] 2024-06-10 09:50:11.434 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[WARN ] 2024-06-10 09:50:11.434 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:50:11.434 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:50:11.434 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:50:11.435 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:50:15.045 [main] GardenSimulator - End of Day 1 of Garden simulation
+[INFO ] 2024-06-10 09:50:15.046 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:50:15.046 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:50:15.046 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:50:15.047 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:50:18.660 [main] GardenSimulator - End of Day 2 of Garden simulation
+[INFO ] 2024-06-10 09:50:18.661 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:50:18.661 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:50:18.661 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:18.661 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:18.662 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:18.662 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:50:18.661 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:50:18.662 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:50:18.662 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:50:22.271 [main] GardenSimulator - End of Day 3 of Garden simulation
+[INFO ] 2024-06-10 09:50:22.272 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:50:22.272 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:50:22.272 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:22.272 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:22.272 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:22.272 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:50:22.272 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:50:22.272 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:50:25.887 [main] GardenSimulator - End of Day 4 of Garden simulation
+[INFO ] 2024-06-10 09:50:25.888 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:50:25.888 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:50:51.008 [main] GardenSimulator - Initializing the garden simulation...
+[INFO ] 2024-06-10 09:50:51.025 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:50:51.029 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:50:51.029 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:50:51.030 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:50:51.029 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:50:51.030 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:50:51.030 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:50:54.637 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:50:54.637 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:50:54.637 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:50:54.637 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:54.638 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:54.638 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:50:54.637 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:50:54.638 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:50:54.638 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:50:58.244 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:50:58.245 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:50:58.245 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:50:58.245 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:50:58.245 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:50:58.246 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:51:01.850 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:01.851 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:51:01.851 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:51:01.851 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:51:01.852 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:51:05.454 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:05.455 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:51:05.455 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:51:50.968 [main] GardenSimulator - ---------------- Beginning of Day 0 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:50.979 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:51:50.984 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:51:50.984 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:51:50.984 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:51:50.984 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:51:50.984 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:51:50.984 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:51:54.593 [main] GardenSimulator - ---------------- End of Day 0 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:54.593 [main] GardenSimulator - ---------------- Beginning of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:54.594 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:51:54.594 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:51:54.594 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:51:54.595 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:51:58.204 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:58.204 [main] GardenSimulator - ---------------- Beginning of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:51:58.205 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:51:58.205 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:51:58.205 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:51:58.205 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:51:58.205 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:51:58.205 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:51:58.205 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:51:58.205 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:51:58.206 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:52:10.323 [main] GardenSimulator - ---------------- Beginning of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:10.334 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:52:10.339 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:52:10.339 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:52:10.339 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:52:10.339 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:52:10.339 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:52:10.340 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:52:13.947 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:13.947 [main] GardenSimulator - ---------------- Beginning of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:13.947 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:52:13.947 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:52:13.947 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:52:13.948 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:52:17.561 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:17.561 [main] GardenSimulator - ---------------- Beginning of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:17.562 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:52:17.562 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:52:17.563 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:17.563 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:17.562 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:52:17.563 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:17.563 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:52:17.563 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:52:17.563 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:52:21.164 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:21.164 [main] GardenSimulator - ---------------- Beginning of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:21.164 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:52:21.164 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:52:21.164 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:21.165 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:21.165 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:52:21.164 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:52:21.165 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:52:21.165 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:52:24.766 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:24.766 [main] GardenSimulator - ---------------- Beginning of Day 5 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:52:24.767 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:52:24.767 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:52:59.991 [main] GardenSimulator - ---------------- Beginning of Day 0 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:00.003 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:53:00.008 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:53:00.009 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:53:00.009 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:53:00.009 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:53:00.009 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:53:00.009 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:53:03.617 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:03.618 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:53:03.618 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:53:03.618 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:53:03.618 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:53:07.224 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:07.224 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:53:07.225 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:53:07.225 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 09:53:07.225 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:07.225 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:10.833 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:10.834 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:53:10.834 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:53:10.834 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:10.836 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:18.783 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:53:18.789 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:53:18.790 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:53:18.790 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:53:18.790 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:53:18.790 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:53:18.790 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:53:22.403 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:22.404 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:53:22.404 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:53:22.404 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:53:22.404 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:53:26.006 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:26.007 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:53:26.007 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:53:26.007 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:26.007 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:26.007 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:26.007 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:26.007 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:26.007 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:53:26.007 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:53:29.623 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:29.623 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:53:29.623 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:53:29.623 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:29.624 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:29.624 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:29.624 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:53:29.623 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:29.624 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:36.134 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:53:36.141 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:53:36.141 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:53:36.141 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:53:36.141 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:53:36.141 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:53:36.141 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:53:39.752 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:39.753 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:53:39.753 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:53:39.753 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:39.754 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:39.753 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:53:39.754 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:39.754 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:53:39.754 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:53:43.365 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:43.366 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:53:43.366 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:53:43.366 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:53:43.366 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:43.367 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:46.968 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:46.969 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:53:46.969 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:53:46.969 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:46.969 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:46.969 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:53:46.969 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:53:46.969 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:53:46.969 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:53:50.579 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:53:50.580 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:53:50.580 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:54:27.587 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:54:27.593 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:54:27.594 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:54:27.594 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:54:27.594 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:54:27.594 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:54:27.594 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:54:31.195 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:54:31.196 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:54:31.196 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:54:31.196 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:54:31.197 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:54:34.803 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:54:34.803 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:54:34.803 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:54:34.804 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:54:34.804 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:54:34.803 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:54:34.804 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:54:34.804 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:54:34.804 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:54:34.804 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 09:54:38.408 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:54:38.409 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:54:38.410 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:54:38.410 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:54:38.410 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:54:42.017 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:54:42.017 [main] GardenSimulatorAPI - ********** Status of Garden ************
+[INFO ] 2024-06-10 09:54:42.018 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:54:42.018 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 09:55:07.152 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 09:55:07.159 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 09:55:07.160 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 09:55:07.160 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 09:55:07.160 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 09:55:07.160 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 09:55:07.160 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 09:55:10.761 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:55:10.762 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 09:55:10.762 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 09:55:10.762 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 09:55:10.763 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 09:55:14.374 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:55:14.374 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 09:55:14.374 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 09:55:14.374 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 09:55:14.374 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:55:14.375 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:55:17.978 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:55:17.979 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 09:55:17.979 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 09:55:17.979 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 09:55:17.979 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 09:55:17.980 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 09:55:17.979 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 09:55:17.980 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 09:55:17.980 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 09:55:21.591 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 09:55:21.592 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 09:55:21.592 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:03:30.443 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:03:30.449 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:03:30.450 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:03:30.450 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:03:30.450 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:03:30.450 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:03:30.450 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:03:34.056 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:03:34.057 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:03:34.057 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:03:34.057 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:34.057 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:34.057 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:03:34.058 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:34.058 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:03:34.058 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:03:34.058 [main] PestAttackController - Pest Snails does not have any impact for any of the plants [Plant{name='Rose', currentWaterLevel=21, waterRequirement=22, temperature=60, isAlive=true}, Plant{name='Tulip', currentWaterLevel=21, waterRequirement=18, temperature=60, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=21, waterRequirement=24, temperature=60, isAlive=true}]
+[INFO ] 2024-06-10 10:03:37.668 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:03:37.669 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:03:37.669 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:03:37.669 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:03:37.669 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:03:37.670 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:03:41.281 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:03:41.282 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:03:41.282 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:03:41.282 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:41.282 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:41.282 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:03:41.282 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:03:41.282 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:03:41.282 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:03:44.892 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:03:44.893 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:03:44.893 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:04:02.770 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:04:02.776 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:04:02.777 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:04:02.776 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:04:02.777 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:04:02.777 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:04:02.777 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:04:06.384 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:04:06.385 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:04:06.385 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:04:06.385 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:06.385 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:06.385 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:06.386 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:04:06.385 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:04:06.386 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:04:06.386 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:04:10.001 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:04:10.002 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:04:10.002 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:04:10.002 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:10.002 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:10.002 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:04:10.002 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:04:10.002 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:04:10.002 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:04:10.002 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:04:13.663 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:04:13.663 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:04:13.664 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:04:13.664 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:04:13.664 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:04:17.267 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:04:17.268 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:04:17.268 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:06:27.162 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:06:27.172 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:06:27.172 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:06:27.173 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:06:27.172 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:06:27.173 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:06:27.173 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:06:30.779 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:06:30.780 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:06:30.781 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:06:34.020 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:06:34.020 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:06:34.021 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:06:37.624 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:06:37.625 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:06:37.625 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:06:41.087 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:06:41.087 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[WARN ] 2024-06-10 10:06:41.087 [main] PestAttackController - Plant Tulip has been killed by a Slugs pest attack.
+[INFO ] 2024-06-10 10:06:44.692 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:06:44.693 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:06:44.693 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:06:44.693 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:06:44.693 [main] PesticideController - Skipping pesticide application on Tulip as it is not alive.
+[INFO ] 2024-06-10 10:06:44.693 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:06:44.693 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:06:53.889 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:06:53.889 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:07:59.746 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:07:59.747 [main] GardenSimulatorAPI - Alive Plants : [Rose, Sunflower]
+[INFO ] 2024-06-10 10:07:59.748 [main] GardenSimulatorAPI - Dead Plants : [Tulip]
+[INFO ] 2024-06-10 10:08:23.210 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:08:23.217 [rainThread] RainController - Simulating rain of 2 units.
+[INFO ] 2024-06-10 10:08:23.217 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[WARN ] 2024-06-10 10:08:23.217 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:08:23.217 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:08:23.217 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:08:23.217 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:08:26.823 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:26.824 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:08:26.824 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:08:26.824 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:26.824 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:26.824 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:08:26.824 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:26.824 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:08:26.824 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:08:26.825 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:08:30.436 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:30.437 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:08:30.437 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:08:30.437 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:08:30.437 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:08:30.438 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:08:34.045 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:34.046 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:08:34.046 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:08:34.046 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:34.046 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:34.046 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:34.046 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:08:34.046 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:08:34.046 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:08:34.047 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:08:37.648 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:37.649 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:08:37.649 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:08:42.624 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:08:42.634 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:08:42.635 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:08:42.635 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:08:42.635 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:08:42.635 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:08:42.635 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:08:46.248 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:46.249 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:08:46.249 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:08:46.249 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:08:46.249 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:08:46.250 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:08:49.860 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:49.861 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:08:49.861 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:08:49.861 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:49.861 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:49.861 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:49.861 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:08:49.861 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:08:49.861 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:08:49.861 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:08:53.470 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:53.471 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:08:53.471 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:08:53.471 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:53.471 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:53.471 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:08:53.471 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:08:53.472 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:08:53.472 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:08:53.472 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:08:57.084 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:08:57.084 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:08:57.084 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:09:28.400 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:09:28.407 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:09:28.408 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:09:28.408 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:09:28.408 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:09:28.408 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:09:28.408 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:09:32.013 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:09:32.013 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:09:32.013 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:09:32.013 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:09:32.013 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:09:32.014 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:09:35.615 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:09:35.616 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:09:35.616 [main] PestAttackController - Simulating pest attack: Slugs
+[WARN ] 2024-06-10 10:09:35.617 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 10:09:35.616 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:09:35.617 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:09:39.226 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:09:39.227 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:09:39.227 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:09:39.227 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:09:39.227 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:09:39.227 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:09:42.833 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:09:42.833 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:09:42.833 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:09:58.121 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:09:58.128 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:09:58.128 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:09:58.128 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:09:58.129 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:09:58.129 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:09:58.129 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:10:01.734 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:01.735 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:10:01.735 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:01.735 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:01.735 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:01.736 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:01.736 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:10:01.735 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:10:01.736 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:01.736 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:10:05.352 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:05.352 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:10:05.353 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:10:05.353 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:10:05.353 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:05.353 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:08.956 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:08.957 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:10:08.958 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:08.958 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:08.958 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:08.958 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:08.958 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:08.958 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:10:08.958 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:08.958 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:12.566 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:12.566 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:10:12.567 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:10:17.950 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:10:17.957 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:10:17.957 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:10:17.958 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:10:17.958 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:10:17.957 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:10:17.958 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:10:21.561 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:21.564 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:10:21.564 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:10:21.564 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:21.564 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:10:21.564 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:10:25.174 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:25.175 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:10:25.175 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:25.175 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:25.175 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:25.175 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:25.175 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:10:25.175 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:25.175 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:10:25.176 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:28.776 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:28.777 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:10:28.777 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:28.777 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:28.777 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:28.777 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:28.777 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:10:28.777 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:28.778 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:28.778 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:32.379 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:32.379 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:10:32.380 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:10:45.176 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:10:45.183 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:10:45.183 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:10:45.184 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:10:45.183 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:10:45.184 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:10:45.184 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:10:48.784 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:48.785 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:10:48.785 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:48.785 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:48.785 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:48.785 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:10:48.785 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:48.786 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:10:48.786 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:10:48.786 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:52.402 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:52.403 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:10:52.403 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:52.403 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:52.403 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:52.403 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:52.403 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:10:52.404 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:10:52.403 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:52.404 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:56.006 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:56.007 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:10:56.007 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:10:56.007 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:56.007 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:56.007 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:10:56.007 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:10:56.007 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:10:56.007 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:10:56.007 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:10:59.623 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:10:59.623 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:10:59.624 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-10 10:11:03.939 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:11:03.945 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:11:03.946 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:11:03.946 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:11:03.946 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:11:03.946 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:11:03.946 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:11:07.550 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:11:07.551 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:11:07.551 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:11:07.551 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:11:07.551 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:11:07.552 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:11:11.165 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:11:11.166 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:11:11.166 [main] PestAttackController - Simulating pest attack: Slugs
+[WARN ] 2024-06-10 10:11:11.166 [main] PestAttackController - Plant Tulip has been killed by a Slugs pest attack.
+[INFO ] 2024-06-10 10:11:11.166 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:11:11.166 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:11:14.776 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:11:14.777 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:11:14.777 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:11:14.777 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:11:14.777 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:11:14.778 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:11:18.379 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:11:18.379 [main] GardenSimulatorAPI - Alive Plants : [Rose, Sunflower]
+[INFO ] 2024-06-10 10:11:18.380 [main] GardenSimulatorAPI - Dead Plants : [Tulip]
+[INFO ] 2024-06-10 10:12:30.218 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:12:30.225 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:12:30.227 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:12:30.225 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:12:30.227 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:12:30.227 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:12:30.227 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:12:33.831 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:12:33.831 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:12:33.831 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:12:33.832 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:12:33.832 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:12:33.832 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:12:37.437 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:12:37.438 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:12:37.438 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:12:37.439 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:37.439 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:37.438 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:12:37.439 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:37.439 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:12:37.439 [main] PestAttackController - Simulating pest attack: Slugs
+[INFO ] 2024-06-10 10:12:37.439 [main] PestAttackController - Pesticide protects Tulip from the Slugs pest attack.
+[INFO ] 2024-06-10 10:12:41.041 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:12:41.042 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:12:41.042 [main] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-10 10:12:41.043 [main] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:41.043 [main] PesticideController - Pesticide applied to Tulip to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:41.043 [main] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-10 10:12:41.043 [temperatureThread] GardenSimulatorAPI - Temperature reached 150 F
+[INFO ] 2024-06-10 10:12:41.043 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:12:41.043 [temperatureThread] TemperatureController - Adjusting temperature to 150 °F.
+[INFO ] 2024-06-10 10:12:41.043 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[WARN ] 2024-06-10 10:12:41.043 [temperatureThread] TemperatureController - Extreme high temperature detected. All plants will die.
+[INFO ] 2024-06-10 10:12:44.652 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:12:44.653 [main] GardenSimulatorAPI - Alive Plants : []
+[INFO ] 2024-06-10 10:12:44.653 [main] GardenSimulatorAPI - Dead Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:13:21.464 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-10 10:13:21.470 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-10 10:13:21.471 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-10 10:13:21.471 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-10 10:13:21.471 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-10 10:13:21.470 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-10 10:13:21.471 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-10 10:13:25.078 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:13:25.079 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-10 10:13:25.079 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-10 10:13:25.079 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:13:25.079 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-10 10:13:25.080 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-10 10:13:28.684 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:13:28.685 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-10 10:13:28.685 [main] PestAttackController - Simulating pest attack: Slugs
+[WARN ] 2024-06-10 10:13:28.685 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-10 10:13:28.685 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-10 10:13:28.686 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-10 10:13:32.300 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:13:32.301 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-10 10:13:32.301 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-10 10:13:32.301 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-10 10:13:32.301 [temperatureThread] GardenSimulatorAPI - Temperature reached 25 F
+[INFO ] 2024-06-10 10:13:32.302 [temperatureThread] TemperatureController - Adjusting temperature to 25 °F.
+[WARN ] 2024-06-10 10:13:32.302 [temperatureThread] TemperatureController - Detected low temperature of 25 which is below 40. Activating Garden Heating system
+[INFO ] 2024-06-10 10:13:32.302 [temperatureThread] HeatingController - Activating heating system to increase temperature to 50 °F.
+[INFO ] 2024-06-10 10:13:35.902 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-10 10:13:35.903 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-10 10:13:35.903 [main] GardenSimulatorAPI - Dead Plants : []
+[INFO ] 2024-06-09 22:18:47.885 [JavaFX Application Thread] GardenController - Planting plants
+[INFO ] 2024-06-09 22:18:49.069 [JavaFX Application Thread] GardenController - Planting plants
+[INFO ] 2024-06-09 22:18:51.443 [JavaFX Application Thread] GardenController - Planting plants
+[INFO ] 2024-06-09 22:18:51.708 [JavaFX Application Thread] GardenController - Planting plants
+[INFO ] 2024-06-09 22:18:54.423 [JavaFX Application Thread] GardenController - Planting plants
+[INFO ] 2024-06-09 22:19:01.632 [JavaFX Application Thread] HeatingController - Activating heating system to increase temperature to 50 °F.
+[INFO ] 2024-06-09 22:19:03.005 [JavaFX Application Thread] SprinklerController - Activating sprinklers, providing an average of 12 units of water to all plants.
+[INFO ] 2024-06-09 22:19:04.042 [JavaFX Application Thread] PesticideController - Applying pesticides to all plants to prevent pest attacks.
+[INFO ] 2024-06-09 22:19:04.043 [JavaFX Application Thread] PesticideController - Pesticide applied to Lily to enhance resistance against pests.
+[INFO ] 2024-06-09 22:19:04.043 [JavaFX Application Thread] PesticideController - Pesticide applied to Rose to enhance resistance against pests.
+[INFO ] 2024-06-09 22:19:04.043 [JavaFX Application Thread] PesticideController - Pesticide applied to Sunflower to enhance resistance against pests.
+[INFO ] 2024-06-09 22:19:05.227 [JavaFX Application Thread] RainController - Simulating rain of 10 units.
+[INFO ] 2024-06-09 22:19:32.372 [main] GardenSimulatorAPI - Garden initialized with plants: [Plant{name='Rose', currentWaterLevel=0, waterRequirement=22, temperature=20, isAlive=true}, Plant{name='Tulip', currentWaterLevel=0, waterRequirement=18, temperature=15, isAlive=true}, Plant{name='Sunflower', currentWaterLevel=0, waterRequirement=24, temperature=25, isAlive=true}]
+[INFO ] 2024-06-09 22:19:32.381 [rainThread] RainController - Simulating rain of 2 units.
+[WARN ] 2024-06-09 22:19:32.382 [rainThread] RainController - Insufficient rainfall received 2 units which is below the 5. Activating sprinkler system.
+[INFO ] 2024-06-09 22:19:32.381 [temperatureThread] GardenSimulatorAPI - Temperature reached 50 F
+[INFO ] 2024-06-09 22:19:32.382 [temperatureThread] TemperatureController - Adjusting temperature to 50 °F.
+[INFO ] 2024-06-09 22:19:32.382 [rainThread] SprinklerController - Activating sprinklers, providing an average of 21 units of water to all plants.
+[INFO ] 2024-06-09 22:19:32.382 [rainThread] GardenSimulatorAPI - It rained 2 units
+[INFO ] 2024-06-09 22:19:35.985 [main] GardenSimulator - ---------------- End of Day 1 of Garden simulation -----------------
+[INFO ] 2024-06-09 22:19:35.986 [main] GardenSimulatorAPI - Parasite Snails infested the garden
+[INFO ] 2024-06-09 22:19:35.986 [main] PestAttackController - Simulating pest attack: Snails
+[INFO ] 2024-06-09 22:19:35.986 [main] PestAttackController - Pest Snails does not have any impact for any of the plants
+[INFO ] 2024-06-09 22:19:35.986 [temperatureThread] GardenSimulatorAPI - Temperature reached 60 F
+[INFO ] 2024-06-09 22:19:35.987 [temperatureThread] TemperatureController - Adjusting temperature to 60 °F.
+[INFO ] 2024-06-09 22:19:39.589 [main] GardenSimulator - ---------------- End of Day 2 of Garden simulation -----------------
+[INFO ] 2024-06-09 22:19:39.590 [main] GardenSimulatorAPI - Parasite Slugs infested the garden
+[INFO ] 2024-06-09 22:19:39.591 [main] PestAttackController - Simulating pest attack: Slugs
+[WARN ] 2024-06-09 22:19:39.591 [main] PestAttackController - Plant Tulip resisted a Slugs pest attack and it survived.
+[INFO ] 2024-06-09 22:19:39.590 [temperatureThread] GardenSimulatorAPI - Temperature reached 45 F
+[INFO ] 2024-06-09 22:19:39.591 [temperatureThread] TemperatureController - Adjusting temperature to 45 °F.
+[INFO ] 2024-06-09 22:19:43.194 [main] GardenSimulator - ---------------- End of Day 3 of Garden simulation -----------------
+[INFO ] 2024-06-09 22:19:43.196 [main] GardenSimulatorAPI - Parasite Whiteflies infested the garden
+[INFO ] 2024-06-09 22:19:43.196 [main] PestAttackController - Simulating pest attack: Whiteflies
+[INFO ] 2024-06-09 22:19:43.197 [main] PestAttackController - Pest Whiteflies does not have any impact for any of the plants
+[INFO ] 2024-06-09 22:19:43.196 [temperatureThread] GardenSimulatorAPI - Temperature reached 25 F
+[INFO ] 2024-06-09 22:19:43.197 [temperatureThread] TemperatureController - Adjusting temperature to 25 °F.
+[WARN ] 2024-06-09 22:19:43.197 [temperatureThread] TemperatureController - Detected low temperature of 25 which is below 40. Activating Garden Heating system
+[INFO ] 2024-06-09 22:19:43.197 [temperatureThread] HeatingController - Activating heating system to increase temperature to 50 °F.
+[INFO ] 2024-06-09 22:19:46.798 [main] GardenSimulator - ---------------- End of Day 4 of Garden simulation -----------------
+[INFO ] 2024-06-09 22:19:46.800 [main] GardenSimulatorAPI - Alive Plants : [Rose, Tulip, Sunflower]
+[INFO ] 2024-06-09 22:19:46.801 [main] GardenSimulatorAPI - Dead Plants : []
